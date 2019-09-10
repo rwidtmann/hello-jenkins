@@ -1,2 +1,4 @@
 
 adding a text file for upload push and pull testing of Jenkins install
+
+checking again after setting scan repo for 1 minute
