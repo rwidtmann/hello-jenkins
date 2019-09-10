@@ -6,7 +6,6 @@ pipeline {
         stage('build') {
             steps {
               sh '''
-                 cd ../rsvp-service
                  ./mvnw -DskipTests clean compile
               '''
             }
@@ -15,7 +14,6 @@ pipeline {
         stage('test') {
             steps {
               sh '''
-                 cd rsvp-service
                      ./mvnw test
               '''
             }
@@ -24,7 +22,6 @@ pipeline {
         stage('deliver') {
             steps {
               sh '''
-                 cd rsvp-service
                      ./mvnw -DskipTests install
               '''
             }
