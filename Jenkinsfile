@@ -6,7 +6,7 @@ pipeline {
         stage('build') {
             steps {
               sh '''
-                 cd rsvp-service
+                 cd ../rsvp-service
                  ./mvnw -DskipTests clean compile
               '''
             }
