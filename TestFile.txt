@@ -2,3 +2,5 @@
 adding a text file for upload push and pull testing of Jenkins install
 
 checking again after setting scan repo for 1 minute
+
+Updating again - the last build was at 6:19. I'm looking for this push to schedule a build after the 6:19 mark.
